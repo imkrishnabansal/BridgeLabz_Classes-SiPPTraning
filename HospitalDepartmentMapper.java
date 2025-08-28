@@ -1,5 +1,4 @@
 import java.util.*;
-
 class Doctor {
     String name;
     String specialization;
@@ -8,13 +7,11 @@ class Doctor {
         this.name = name;
         this.specialization = specialization;
     }
-
     @Override
     public String toString() {
         return name + " (" + specialization + ")";
     }
 }
-
 public class HospitalDepartmentMapper {
     public static void main(String[] args) {
         Map<String, List<Doctor>> departmentMap = new HashMap<>();
